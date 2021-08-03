@@ -20,10 +20,13 @@ module.exports = {
                     presets: ['@babel/preset-env']
                 }
             }
-        },{
+        }, {
             test: /\.js$/,
             enforce: 'pre',
             use: ['source-map-loader'],
+        }, {
+            test: /\.css$/,
+            use: ['style-loader', 'css-loader']
         }]
     }
 };

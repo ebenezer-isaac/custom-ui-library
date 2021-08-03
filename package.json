@@ -31,5 +31,8 @@
   },
   "optionalDependencies": {
     "fsevents": "^1.2.13"
+  },
+  "dependencies": {
+    "style-loader": "^3.2.1"
   }
 }
