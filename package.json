@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/ebenezer-isaac/custom-ui-library/issues"
   },
-  "homepage": "https://github.com/ebenezer-isaac/custom-ui-library#readme"
+  "homepage": "https://github.com/ebenezer-isaac/custom-ui-library#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^6.2.0",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
